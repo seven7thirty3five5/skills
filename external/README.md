@@ -7,7 +7,7 @@ A skill I start modifying no longer belongs in this list. Move it to [`../skills
 ## Install all
 
 ```bash
-npx skills add -g -y https://github.com/herdrdev/herdr-core/tree/master/skills/herdr-core && npx skills add -g -y https://github.com/mattpocock/skills/tree/main/skills/productivity/grill-me && npx skills add -g -y https://github.com/mattpocock/skills/tree/main/skills/productivity/grilling
+npx skills add -g -y https://github.com/herdrdev/herdr-core/tree/master/skills/herdr-core && npx skills add -g -y https://github.com/mattpocock/skills/tree/main/skills/productivity/grill-me && npx skills add -g -y https://github.com/mattpocock/skills/tree/main/skills/productivity/grilling && npx skills add -g -y https://github.com/mattpocock/skills/tree/main/skills/engineering/tdd
 ```
 
 `-g` installs for my user rather than the current project; `-y` skips the prompts. When adding a skill to the table below, add it to this command too.
@@ -21,3 +21,4 @@ Keep rows sorted by source, then by skill name.
 | `herdr-core` | [herdrdev/herdr-core](https://github.com/herdrdev/herdr-core/tree/master/skills/herdr-core) |
 | `grill-me` | [mattpocock/skills](https://github.com/mattpocock/skills/tree/main/skills/productivity/grill-me) |
 | `grilling` | [mattpocock/skills](https://github.com/mattpocock/skills/tree/main/skills/productivity/grilling) |
+| `tdd` | [mattpocock/skills](https://github.com/mattpocock/skills/tree/main/skills/engineering/tdd) |
