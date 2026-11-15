@@ -6,9 +6,16 @@ My agent skills: the ones I write and maintain myself, plus a record of the pre-
 
 | Path | What lives there |
 | --- | --- |
-| [`skills/`](skills/) | Skills I create, build, and maintain. One directory per skill, each with a `SKILL.md`. |
+| [`skills/`](skills/) | Skills I create, build, and maintain, grouped by domain. |
 | [`external/`](external/README.md) | A tracked list of third-party skills I use unmodified. Nothing is copied here; each entry points at its source. |
-| [`templates/skill/`](templates/skill/SKILL.md) | Starting point for a new skill. |
+
+## My skills
+
+| Domain | Skills |
+| --- | --- |
+| [`software-engineering`](skills/software-engineering/) | None yet |
+| [`deep-research`](skills/deep-research/) | [`research`](skills/deep-research/research/SKILL.md), [`publish`](skills/deep-research/publish/SKILL.md) |
+| [`meta`](skills/meta/) | [`create-skill`](skills/meta/create-skill/SKILL.md), [`evaluate-skill`](skills/meta/evaluate-skill/SKILL.md) |
 
 ## Install my skills
 
@@ -26,16 +33,12 @@ npx skills add seven7thirty3five5/skills --skill <name>
 
 ## Add a new skill
 
-```bash
-cp -R templates/skill skills/<name>
-```
+Create `skills/<domain>/<name>/SKILL.md`. The directory name must match the `name` in the frontmatter, and skill names must be unique across domains.
 
-Then edit `skills/<name>/SKILL.md`. The directory name must match the `name` in the frontmatter.
+## External skills
 
-## Track an external skill
-
-Add a row to [`external/README.md`](external/README.md) with its source and install command. If I start modifying one, it moves into `skills/` with a `CREDITS.md` naming the original.
+[`external/README.md`](external/README.md) lists them and has one command to install them all. If I start modifying one, it moves into `skills/` with a `CREDITS.md` naming the original.
 
 ## License
 
-[MIT](LICENSE) for everything under `skills/` and `templates/`. External skills keep their own licenses.
+[MIT](LICENSE) for everything under `skills/`. External skills keep their own licenses.
