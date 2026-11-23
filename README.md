@@ -17,6 +17,7 @@ My agent skills: the ones I write and maintain myself, plus a record of the pre-
 | [`deep-research`](skills/deep-research/) | [`research`](skills/deep-research/research/SKILL.md), [`publish`](skills/deep-research/publish/SKILL.md) |
 | [`meta`](skills/meta/) | [`create-skill`](skills/meta/create-skill/SKILL.md), [`evaluate-skill`](skills/meta/evaluate-skill/SKILL.md) |
 | [`misc`](skills/misc/) | None yet. For skills that belong to no domain or apply across domains. |
+| [`in-progress`](skills/in-progress/) | [`delegate`](skills/in-progress/delegate/SKILL.md) |
 
 ## Philosophy
 
