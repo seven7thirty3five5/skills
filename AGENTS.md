@@ -2,7 +2,7 @@
 
 This repository hosts the owner's agent skills. See [README.md](README.md) for the layout.
 
-- `skills/<domain>/<name>/SKILL.md` is a skill the owner maintains. Domains are `software-engineering`, `deep-research`, `meta`, and `misc`; ask before adding another. `misc` is for skills that belong to no domain or apply across domains.
+- `skills/<domain>/<name>/SKILL.md` is a skill the owner maintains. Domains are `software-engineering`, `deep-research`, `meta`, and `misc`; ask before adding another. `misc` is for skills that belong to no domain or apply across domains. Besides the domains, `skills/in-progress/` holds skills still being developed, until they're ready for their domain.
 - The skill directory name must equal the frontmatter `name` (lowercase, hyphenated) and be unique across all domains.
 - Do not put templates or drafts inside `skills/`; everything there is installable.
 - When adding or removing a skill, update the skills table in `README.md`.
